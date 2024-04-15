@@ -43,7 +43,7 @@ namespace ITTP_2023
             {
                 options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
-                    Description = "Введите токен авторизации",
+                    Description = "Г‚ГўГҐГ¤ГЁГІГҐ ГІГ®ГЄГҐГ­ Г ГўГІГ®Г°ГЁГ§Г Г¶ГЁГЁ",
                     Name = "Token",
                     In = ParameterLocation.Header,
                     Type = SecuritySchemeType.ApiKey,
@@ -71,7 +71,7 @@ namespace ITTP_2023
 
                 var basePath = AppContext.BaseDirectory;
 
-                var xmlPath = Path.Combine(basePath, "ATON_ITTP_2024.xml");
+                var xmlPath = Path.Combine(basePath, "ATON ITTP 2024.xml");
                 options.IncludeXmlComments(xmlPath);
             });
 
